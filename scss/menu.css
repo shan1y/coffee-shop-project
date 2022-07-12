@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.nav {
+  padding: 1rem 1rem 0rem 1rem;
+  display: flex;
+}
+.nav__logo {
+  width: 4.125rem;
+  height: 4.125rem;
+  transform: translateY(10%);
+}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+.nav__link {
+  font-size: 1.32rem;
+  text-decoration: none;
+  display: inline;
+  padding: 20px;
+  color: black;
+}
+.nav__link--blue {
+  color: #5bacc3;
+}
+
+h1,
+h2,
+.nav__heading a {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-size: 2.06rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body {
+  background-color: #fff0ed;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 1.25rem;
+}
+
+h3 {
+  padding-top: 1.25rem;
+}
+
+.menu {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  height: 33rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.menu__heading {
+  background-color: #393939;
+  color: white;
+  width: 24%;
+  height: 40%;
+  margin: auto;
+  line-height: 13.2rem;
+}
+.menu__heading--border {
+  width: 24%;
+  height: 40%;
+  position: absolute;
+  border: 4px solid #5bacc3;
+  top: 27.5%;
+  left: 37%;
+}
+
+.menu-categories__list {
+  background-color: #393939;
+  list-style-type: none;
+  text-align: center;
+  font-weight: 400;
+  height: 4rem;
+}
+.menu-categories__item {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left: 4px #5bacc3 solid;
+  padding: 0 20px;
+}
+.menu-categories__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.product-container {
+  background-color: #fff0ed;
+  padding: 1.25rem;
+}
+
+.product-container:nth-child(2) {
+  background-color: #f7f7f7;
+}
+
+.product-container__price {
+  color: #5bacc3;
+  text-align: center;
+}
+
+.product-container__description {
+  font-style: italic;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0 0.3rem 0;
+}/*# sourceMappingURL=menu.css.map */

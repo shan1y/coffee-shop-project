@@ -1,0 +1,71 @@
+$color-graphite: #393939;
+$color-grey: #f7f7f7;
+$color-white: #fff;
+$color-button: #5bacc3;
+$color-nav: #fff0ed;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.nav {
+  padding: 1rem 1rem 0rem 1rem;
+  display: flex;
+
+  &__logo {
+    width: 4.125rem;
+    height: 4.125rem;
+    transform: translateY(10%);
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 1.32rem;
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    color: black;
+
+    &--blue {
+      color: $color-button;
+    }
+  }
+}
+
+h1,
+h2,
+.nav__heading a {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-size: 2.06rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
